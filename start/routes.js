@@ -31,3 +31,6 @@ Route.group(()=>{
   Route.put('users/:id/photo', 'UserController.changePhoto')
 
 }).prefix('admin').middleware(['auth'])
+
+
+ 
